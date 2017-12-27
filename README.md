@@ -17,4 +17,12 @@ En el siguiente trabajo se realizo una web-app que a través de un input filtra 
 - CSS (@Media Queries)
 - HTML  
 - FRAMEWORK MATERIALIZE  
-- JQUERY
+- JQUERY  
+
+## Producto Final  
+
+**Vista Principal**  
+![vista 1](assets/images/primeravista.png)  
+
+**Vista Central**  
+![vista 2](assets/images/segundavista.png)
