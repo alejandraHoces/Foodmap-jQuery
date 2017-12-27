@@ -1,0 +1,141 @@
+body {
+  background-color: #ffeb3b;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 9999;
+}
+
+.main-logo {
+  width: 50vw;
+  height: auto;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+#main-container {
+  display: none;
+}
+
+#map {
+  width: 100%;
+  height: 40vh;
+  border: 3px solid white;
+}
+
+#map div {
+  z-index: 1;
+}
+
+#modal-map iframe {
+  border: 3px solid #ffeb3b;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+#restaurants-container img {
+  width: 100%;
+  object-fit: cover;
+  height: 30vh;
+  object-position: center;
+}
+
+.container-img-p {
+  width: 100%;
+  position: relative;
+}
+
+.overlay-text {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 2em;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
+#modal {
+  border-radius: 5px;
+}
+
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#modal-data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#modal-data p {
+  margin: 0;
+  text-align: center;
+}
+
+.btn-large, .btn {
+  background-color: white;
+  color: #ffeb3b;
+}
+
+.material-icons {
+  font-size: 2.5rem;
+}
+
+.btn-large:hover, .btn:hover {
+  background-color: white;
+}
+
+#modal-add-restaurant .modal-content {
+  justify-content: baseline;
+}
+
+#modal-add-restaurant p {
+  color: lightgray;
+}
+
+@keyframes colorchange {
+  from {background-color: #2b2b2b;}
+  to {background-color: white;}
+}
+
+@-webkit-keyframes colorchange {
+  from {background-color: #2b2b2b;}
+  to {background-color: white;}
+}
+
+@media (max-width: 400px) {
+  #modal {
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  #modal {
+    width: 100%;
+  }
+}

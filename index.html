@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodmap</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="vendors/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="first-view" class="container-logo">
+      <img src="assets/images/foodmap1.png" alt="logo" class="main-logo">
+    </div>
+  <div id="main-container" class="container text-darken-4 center-align">
+    <div class="row">
+      <div class="col s12">
+        <h1>Foodmap</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3902.7166323305355!2d-77.06060772487115!3d-11.99409894602641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes!5e0!3m2!1ses!2spe!4v1514321665831" allowfullscreen></iframe></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h2>Food Near You</h2>
+        <i class="material-icons">restaurant</i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <select id="filter" class="browser-default">
+          <option value="" disabled selected>What do you like eating today?</option>
+        </select>
+      </div>
+    </div>
+    <div id="restaurants-container" class="row"></div>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h4 id="title-modal"></h4>
+      <div id="modal-map"></div>
+      <div id="modal-data"></div>
+    </div>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="vendors/js/jquery-3.2.1.js"></script>
+  <script src="vendors/js/materialize.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
