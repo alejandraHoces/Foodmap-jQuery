@@ -1,22 +1,19 @@
 body {
   background-color: #ffeb3b;
 }
-
+/*Estilos de la vista inicial*/
 .container-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  z-index: 9999;
 }
 
 .main-logo {
   width: 50vw;
   height: auto;
 }
-
+/*Estilos de la vista principal*/
 h1 {
   font-weight: 100;
 }
@@ -26,10 +23,14 @@ h2 {
   font-weight: 100;
 }
 
+.material-icons {
+  font-size: 2.5em;
+}
+
 #main-container {
   display: none;
 }
-
+/*Estilos de la seccion del mapa*/
 #map {
   width: 100%;
   height: 40vh;
@@ -47,7 +48,7 @@ h2 {
   flex-direction: column;
   margin-bottom: 1em;
 }
-
+/*Estilos de la seccion de restaurantes(imagenes)*/
 #restaurants-container img {
   width: 100%;
   object-fit: cover;
@@ -59,7 +60,7 @@ h2 {
   width: 100%;
   position: relative;
 }
-
+/*Estilos mouseover*/
 .overlay-text {
   width: 100%;
   height: 30vh;
@@ -74,9 +75,9 @@ h2 {
   opacity: 0;
   transition: opacity 0.5s linear;
 }
-
+/*Estilos de la seccion de modal*/
 #modal {
-  border-radius: 5px;
+  border-radius: 0.5em;
 }
 
 .modal-content {
@@ -97,37 +98,7 @@ h2 {
   text-align: center;
 }
 
-.btn-large, .btn {
-  background-color: white;
-  color: #ffeb3b;
-}
-
-.material-icons {
-  font-size: 2.5rem;
-}
-
-.btn-large:hover, .btn:hover {
-  background-color: white;
-}
-
-#modal-add-restaurant .modal-content {
-  justify-content: baseline;
-}
-
-#modal-add-restaurant p {
-  color: lightgray;
-}
-
-@keyframes colorchange {
-  from {background-color: #2b2b2b;}
-  to {background-color: white;}
-}
-
-@-webkit-keyframes colorchange {
-  from {background-color: #2b2b2b;}
-  to {background-color: white;}
-}
-
+/*Estilos de el modal segun el tamaño de la vista*/
 @media (max-width: 400px) {
   #modal {
     width: 90%;

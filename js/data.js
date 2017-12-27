@@ -16,7 +16,7 @@ var restaurants = [
   {
     name: "Puro Perú",
     address: ["Av. República de Panamá 258, Barranco"],
-    filters: ["Fusión Peruana", "Criolla"],
+    filters: ["Fusión Peruana", "Criolla", "Platos tipicos"],
     photo: "<img src='assets/images/puroperu.jpg' alt='Puro Perú' class='mouseover'>",
     website: "http://puroperu.com.pe/es/"
   },
