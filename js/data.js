@@ -2,7 +2,7 @@ var restaurants = [
   {
     name: 'Sr. Limón',
     address: ['Av. Javier Prado Este 5335, La Molina', 'Av.Industrial s/n, Independencia'],
-    filters: ['Pescados'],
+    filters: ['Ceviche', 'Mariscos', 'Pescados'],
     photo: "<img src='assets/images/cevicheria.jpg' alt='Sr. Limón' class='mouseover'>",
     website: 'https://www.facebook.com/senorlimonoficial/'
   },
@@ -37,7 +37,7 @@ var restaurants = [
   {
     name: 'La choza Nautica',
     address: ['Jr.Zeus 809', 'Los Olivos'],
-    filters: ['Ceviche', 'Mariscos'],
+    filters: ['Ceviche', 'Mariscos', 'Pescados'],
     photo: "<img src='assets/images/arrozconmarisco.jpg' alt='Sr. Limón' class='mouseover'>",
     website: 'http://www.chozanautica.com'
   },
