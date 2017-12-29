@@ -59,10 +59,10 @@ $(document).ready(function() {
           $('#title-modal').empty();
           $('#modal-data').empty();
           $('#title-modal').html(restaurants[i].name);
-
+          $('#modal-map').empty();
           for (var n = 0; n < restaurants[i].address.length; n++) {
 
-            $('#modal-map').append("<iframe src='https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3902.7166323305355!2d-77.06060772487115!3d-11.99409894602641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes!5e0!3m2!1ses!2spe!4v1514321665831 allowfullscreen'></iframe>");
+            $('#modal-map').append("<iframe src='https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3902.7166323305355!2d-77.06060772487115!3d-11.99409894602641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes!5e0!3m2!1ses!2spe!4v1514321665831' allowfullscreen></iframe>");
             $('#modal-data').append('<p>' + restaurants[i].address[n] + '</p>');
           }
           $('#modal-data').append("<p><a href='"+restaurants[i].website+"'>"+restaurants[i].website+"</a></p>");
