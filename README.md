@@ -1,9 +1,11 @@
 ## RETO DE CODIGO F O O D M A P
-Track: Common Core.  
-Curso: No reinventes la rueda.  
-Unidad: Agiliza tu desarrollo.  
-## Objetivo
+
 En el siguiente trabajo se realizo una web-app que a través de un input filtra los restaurantes que se encuentran cerca de ti.  
+
+![foodmap](https://user-images.githubusercontent.com/31807340/36346698-53bc0982-1411-11e8-8442-d1b9a5ec11e3.jpg)
+
+### Desarrollado para Laboratoria
+
 
 **FLUJO DE LA APLICACIÓN**
 - Vista splash con duración de 2 a 5 segundos que redirecciona a la vista principal.
@@ -14,8 +16,8 @@ En el siguiente trabajo se realizo una web-app que a través de un input filtra 
 - Una vez cerrado el modal vuelve a la vista principal.  
 
 ## Herramientas  
-- CSS (@Media Queries)
-- HTML  
+- CSS3 (@Media Queries)
+- HTML5  
 - FRAMEWORK MATERIALIZE  
 - JQUERY  
 
