@@ -1,4 +1,4 @@
-## RETO DE CODIGO F O O D M A P
+## RETO DE CODIGO FOOD MAP  
 
 Aplicación que te permite seleccionar tu tipo de platillo favorito y aplicar filtros para localizar el restaurante más cercano que se ajuste a tus gustos.  
 
