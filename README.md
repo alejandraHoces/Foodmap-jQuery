@@ -1,6 +1,6 @@
 ## RETO DE CODIGO F O O D M A P
 
-En el siguiente trabajo se realizo una web-app que a través de un input filtra los restaurantes que se encuentran cerca de ti.  
+Aplicación que te permite seleccionar tu tipo de platillo favorito y aplicar filtros para localizar el restaurante más cercano que se ajuste a tus gustos.  
 
 ![foodmap](https://user-images.githubusercontent.com/31807340/36346698-53bc0982-1411-11e8-8442-d1b9a5ec11e3.jpg)
 
