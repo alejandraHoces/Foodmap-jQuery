@@ -2,7 +2,7 @@
 
 Aplicación que te permite seleccionar tu tipo de platillo favorito y aplicar filtros para localizar el restaurante más cercano que se ajuste a tus gustos.  
 
-![corel](https://user-images.githubusercontent.com/31807340/38462657-742167d8-3ab0-11e8-9a82-44db6d2b563f.png)
+![corel](https://user-images.githubusercontent.com/31807340/38463157-d85fe374-3ab9-11e8-9c03-10f5a21411e0.png)
 
 ## Desarrollado para  
 [Laboratoria](http://laboratoria.la)
@@ -25,7 +25,7 @@ Aplicación que te permite seleccionar tu tipo de platillo favorito y aplicar fi
 ### Producto Final  
 
 Vista Splash  
-![corel](https://user-images.githubusercontent.com/31807340/38462767-fb8703e4-3ab1-11e8-886f-f05ce2d0c469.png)  
+![corel](https://user-images.githubusercontent.com/31807340/38463157-d85fe374-3ab9-11e8-9c03-10f5a21411e0.png)  
 
 Vista Principal  
 ![corel](https://user-images.githubusercontent.com/31807340/38462657-742167d8-3ab0-11e8-9a82-44db6d2b563f.png)
