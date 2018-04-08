@@ -17,10 +17,11 @@ Aplicación que te permite seleccionar tu tipo de platillo favorito y aplicar fi
 - Una vez cerrado el modal vuelve a la vista principal.  
 
 ### Herramientas  
-- CSS3 (@Media Queries)
-- HTML5  
-- FRAMEWORK MATERIALIZE  
-- JQUERY  
+- Css3 (@Media Queries)
+- Html5  
+- Framework Materialize  
+- Jquery  
+- Api de Google Map  
 
 ### Producto Final  
 
@@ -29,4 +30,3 @@ Vista Splash
 
 Vista Principal  
 ![corel](https://user-images.githubusercontent.com/31807340/38462657-742167d8-3ab0-11e8-9a82-44db6d2b563f.png)
-
