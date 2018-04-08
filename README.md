@@ -23,6 +23,7 @@ Aplicación que te permite seleccionar tu tipo de platillo favorito y aplicar fi
 - Jquery  
 - Api Google Map  
 
+
 ### Producto Final  
 
 Vista Splash  
