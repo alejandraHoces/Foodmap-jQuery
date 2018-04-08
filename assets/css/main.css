@@ -15,6 +15,10 @@ html {
   animation-direction: alternate;
   z-index: 9999;
 }
+.foodmap {
+  width: 200px;
+  height: auto;
+}
 
 h1 {
   font-weight: 100;

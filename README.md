@@ -17,10 +17,11 @@ Aplicación que te permite seleccionar tu tipo de platillo favorito y aplicar fi
 - Una vez cerrado el modal vuelve a la vista principal.  
 
 ### Herramientas  
-- CSS3 (@Media Queries)
-- HTML5  
-- FRAMEWORK MATERIALIZE  
-- JQUERY  
+- Css3 (@Media Queries)
+- Html5  
+- Framework Materialize  
+- Jquery  
+- Api Google Map  
 
 ### Producto Final  
 

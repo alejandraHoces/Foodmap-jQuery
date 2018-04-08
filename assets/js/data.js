@@ -45,7 +45,7 @@ var restaurants = [
     name: "Madam Tusan",
     address: ["Av. Santa Cruz 859, Miraflores"],
     filters: ["delivery", "sushi", "japanese", "asian", "vegetarian"],
-    photo: "<img src='assets/img/rockthefood.png' alt='Madam Tusan' class='mouseover'>",
+    photo: "<img src='assets/img/acevichado.jpg' alt='Madam Tusan' class='mouseover'>",
     website: "http://madamtusan.pe/"
   },
   {
