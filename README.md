@@ -25,7 +25,7 @@ Aplicación que te permite seleccionar tu tipo de platillo favorito y aplicar fi
 ### Producto Final  
 
 Vista Splash  
-![vista 1](assets/images/primeravista.png)  
+![corel](https://user-images.githubusercontent.com/31807340/38462767-fb8703e4-3ab1-11e8-886f-f05ce2d0c469.png)  
 
 Vista Principal  
 ![corel](https://user-images.githubusercontent.com/31807340/38462657-742167d8-3ab0-11e8-9a82-44db6d2b563f.png)
