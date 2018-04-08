@@ -31,5 +31,3 @@ Vista Splash
 
 Vista Principal  
 ![corel](https://user-images.githubusercontent.com/31807340/38463203-a2fda4ae-3aba-11e8-8ff1-d4e8f30c9986.png)
-
-
